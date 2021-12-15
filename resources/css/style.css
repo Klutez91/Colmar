@@ -1,0 +1,32 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.header {
+    height: 64px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    
+}
+
+h2 {
+    color: gray;
+    font-weight: normal;
+}
+
+.logo {
+    float: left;
+    padding-left: 24px;
+    padding-top: 18px;
+    height: 32px;
+    max-width: 250px;
+}
+
+.right {
+    float: right;
+}
