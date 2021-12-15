@@ -15,8 +15,9 @@ html {
 }
 
 h2 {
-    color: gray;
+    opacity: .7;
     font-weight: normal;
+    float: left;
 }
 
 .logo {
@@ -27,6 +28,12 @@ h2 {
     max-width: 250px;
 }
 
+.logo #lion {
+    display:inline-block;
+  }
+
 .right {
     float: right;
+    padding-right: 16px;
+    font-weight: normal;
 }
