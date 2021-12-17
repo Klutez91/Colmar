@@ -22,6 +22,7 @@ body {
 
 h1 {
     opacity: 0.7;
+    font-size: 36px;
 }
 
 h2 {
@@ -53,29 +54,42 @@ h2 {
     overflow: hidden;
 }
 
+.navicons {
+    float: right;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    margin-top: 18px;
+}
+
+.navicons img {
+    padding-right: 32px;
+}
+
 .banner {
     background-color: rgb(224, 224, 224);
     max-width: 100%;
-    height: 880px;
+    height: 760px;
 }
 
-.students {
+.students img {
     float: left;
     clear: right;
     margin: 32px 24px;
     display: inline-block;
     max-width: 100%;
-}
-
-.students img {
-    max-width: 100%;
+    max-height: 700px;
 }
 
 .bannertext {
     position: relative;
     display: inline-block;
     max-width: 350px;
-    transform: translate(0%,100%);
+    transform: translate(0%,80%);
+    padding-left: 24px;
 }
 
 .bannertext .start {
@@ -86,3 +100,28 @@ h2 {
     width: 100%;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .students img {
+        margin: 0px 0px;
+    }
+
+    .header h2 {
+        visibility: hidden;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+  }
+
+  @media only screen and (min-width: 600px) {
+      .navicons {
+          display: none;
+      }
+  }
