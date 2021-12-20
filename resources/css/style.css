@@ -146,9 +146,27 @@ h2 {
     width: 100%;
 }
 
+.practicemobile {
+    margin: 16px;
+}
+
+.practicemobile img {
+    width: 100%;
+}
+
+.practicemobile h2 {
+    width: 100%;
+    padding-left: 16px;
+}
+
+.practicemobile p {
+    padding-left: 16px;
+}
+
 @media only screen and (max-width: 600px) {
     .students img {
         margin: 0px 0px;
+        width: 100%;
     }
 
     .header h2 {
@@ -170,11 +188,22 @@ h2 {
         height: 680px;
     }
     
+    .practice {
+        display: none;
+    }
+
+    .rightblocks {
+        display: none;
+    }
 
   }
 
   @media only screen and (min-width: 600px) {
       .navicons {
+          display: none;
+      }
+
+      .practicemobile {
           display: none;
       }
   }
