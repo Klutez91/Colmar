@@ -165,7 +165,7 @@ h2 {
 }
 
 .practicecontainer {
-    height: 920px;
+    height: 980px;
     width: 100%;
 }
 
@@ -236,6 +236,86 @@ h2 {
     font-weight: normal;
 }
 
+.thesis {
+    height: 780px;
+}
+
+.thesistitle {
+    text-align: center;
+    width: 100%;
+    margin: 32px 0px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.thesisvideo {
+    float: left;
+    width: 60%;
+    padding: 0px 24px 24px 24px;
+}
+
+.thesisvideo video {
+    width: 100%;
+}
+
+.thesisblocks .block1 {
+    float: right;
+    width: 35%;
+    background-color:rgb(224, 224, 224);
+}
+
+.thesisblocks .block2 {
+    float: right;
+    width: 35%;
+    margin-top: 24px;
+}
+
+.thesisblocks img {
+    float: left;  
+    padding: 16px; 
+    width: 35%;
+}
+
+.thesisblocks .text {
+    padding-top: 60px;
+}
+
+.thesisblocks .text p {
+    float: left;
+    width: 50%;
+}
+
+.thesisbottom {
+    padding-left: 24px;
+    width: 60%;
+    padding-bottom: 32px;
+}
+
+.thesisbottom h2{
+    float: none;
+}
+
+.footer {
+    padding-left: 24px;
+    padding-top: 16px;
+    border-top:rgb(224, 224, 224) 1px solid;
+    height: auto;
+}
+
+.footerleft {
+    float: left;
+}
+
+.footerright {
+    float: right;
+    display: flex;
+}
+
+.footerright p {
+    padding-right: 16px;
+}
+
+
 @media only screen and (max-width: 600px) {
     .students img {
         margin: 0px 0px;
@@ -267,6 +347,7 @@ h2 {
 
     .practicecontainer {
         height: 980px;
+        border-bottom: 1px solid lightgray;
     }
 
     .rightblocks {
@@ -283,8 +364,30 @@ h2 {
 
     .learning {
         background-color: white;
+        border-bottom: 1px solid lightgray;
     }
 
+    .thesisblocks {
+        display: none;
+    }
+
+    .thesisbottom {
+        display: none;
+    }
+
+    .thesisvideo {
+        float: none;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .thesis {
+        height: auto;
+    }
+
+    .footerright {
+        display: none;
+    }
   }
 
   @media only screen and (min-width: 600px) {
